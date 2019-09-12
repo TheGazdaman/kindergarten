@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar,li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.panel1 {
+  background-image: url('img/banner.jpg');
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: center;
+  height: 100vh;
+}
+
+.heading {
+  font-style: normal;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 1000;
+  color: #fff;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+
+.blok {
+  margin: 0px 300px 10px 300px; 
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.about {
+  margin-left: -600px;
+}
+.team {
+  color: #fff;
+}
+
+.para {
+  text-align: center;
+}
+
+.panel2 {
+  background-color: #FFE964;
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  padding: 40px 40px;
+}
+
+.panel3 {
+  background-color: #FFF;
+  padding: 20px 50px 20px 50px;
+}
+
+.panel4 {
+  background-color: #FF523D;
+  text-align: block;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.photo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;  
+}
+
+.panel5 {
+  background-color: #223C88;
+  height: 200px;
+  text-align: center;
+}
+
+.bila {
+  font-weight: bold;
+}
+
+.para {
+  color: #fff;
+  margin-left: -600px;
+}
