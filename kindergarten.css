@@ -1,93 +1,109 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  
+}
+html {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
-.navbar,li {
-  display: inline;
+.container,a {
+  width: 40em;
+  margin: 0 auto;
+}
+
+nav {
   text-align: center;
-  padding: 20px;
 }
 
-.panel1 {
+nav a {
+  display: inline;
+  padding: 0 1rem;
+
+  color: black;
+
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #223c88;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h1, h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+
+  line-height: 150%;
+}
+
+section {
+  padding: 3rem 0rem 6rem 0rem;
+}
+
+/* Banner */
+
+.banner {
   background-image: url('img/banner.jpg');
   background-size: cover;
   background-attachment: inherit;
   background-position: center;
-  height: 100vh;
+  height: 25rem;
+  background-repeat: no-repeat;
 }
 
-.heading {
-  font-style: normal;
-  position: relative;
-  font-size: 3rem;
-  font-weight: 1000;
-  color: #fff;
-  padding-top: 100px;
-  margin-left: 100px;
-}
+.banner h1 {
+  width: 18rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid white;
 
-.blok {
-  margin: 0px 300px 10px 300px; 
-}
-
-h1 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-.about {
-  margin-left: -600px;
-}
-.team {
   color: #fff;
 }
 
-.para {
-  text-align: center;
-}
-
-.panel2 {
+.mission {
   background-color: #FFE964;
-  background-size: cover;
-  height: 200px;
+  color: black;
+
   text-align: center;
-  padding: 40px 40px;
 }
 
-.panel3 {
-  background-color: #FFF;
-  padding: 20px 50px 20px 50px;
+.about-us {
+  background-color: #fff; 
 }
 
-.panel4 {
+.team {
   background-color: #FF523D;
-  text-align: block;
-  padding: 20px 20px;
   color: #fff;
 }
 
 .photo{
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;  
-}
-
-.panel5 {
-  background-color: #223C88;
-  height: 200px;
+  margin-bottom: 4rem;
+  color: #fff; 
   text-align: center;
 }
 
-.bila {
-  font-weight: bold;
+.photo img {
+  width: 200px;
+  height: 200px;    
 }
 
-.para {
+.contact {
+  background-color: #223C88;
   color: #fff;
-  margin-left: -600px;
+}
+
+.contact-part {
+  margin-bottom: 1rem
 }
